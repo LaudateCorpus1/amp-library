@@ -342,7 +342,7 @@ class ValidationRulesFactory {
   $o_11 = new AttrSpec();
   $o_11->name = 'rel';
   $o_11->mandatory = true;
-  $o_11->blacklisted_value_regex = '(^|\\s)(canonical|components|dns-prefetch|import|manifest|preconnect|prefetch|preload|prerender|serviceworker|stylesheet|subresource|)(\\s|$)';
+  $o_11->blacklisted_value_regex = '(^|\\s)(canonical|components|dns-prefetch|import|preconnect|prefetch|preload|prerender|serviceworker|stylesheet|subresource|)(\\s|$)';
   $o_9->attrs[] = $o_11;
   $o_12 = new AttrSpec();
   $o_12->name = 'sizes';
@@ -928,7 +928,7 @@ class ValidationRulesFactory {
   $o_146->attrs[] = $o_149;
   $o_150 = new AttrSpec();
   $o_150->name = 'rel';
-  $o_150->blacklisted_value_regex = '(^|\\s)(canonical|components|dns-prefetch|import|manifest|preconnect|prefetch|preload|prerender|serviceworker|stylesheet|subresource|)(\\s|$)';
+  $o_150->blacklisted_value_regex = '(^|\\s)(canonical|components|dns-prefetch|import|preconnect|prefetch|preload|prerender|serviceworker|stylesheet|subresource|)(\\s|$)';
   $o_146->attrs[] = $o_150;
   $o_151 = new AttrSpec();
   $o_151->name = 'role';
